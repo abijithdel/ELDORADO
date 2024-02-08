@@ -2,6 +2,7 @@
 
 body{
     background-color: rgb(230, 229, 229);
+    margin: 10px;
 }
 a{
     text-decoration: none;
@@ -101,4 +102,17 @@ input{
     font-weight: 500;
    color: black;
    margin: 5px;
+}
+.about_bg{
+    background-color: black;
+}
+.main_div_bg{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.main_p{
+    font-family: roboto;
+    font-weight: 500;
 }
