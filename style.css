@@ -56,3 +56,13 @@ body{
     color: black;
     font-weight: 500;
  }
+ .slider_section {
+    background-image: url('images/main_img.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+.icon{
+    
+    height: 20px;
+    width: 20px;
+}
