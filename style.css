@@ -3,6 +3,9 @@
 body{
     background-color: rgb(230, 229, 229);
 }
+a{
+    text-decoration: none;
+}
 #main_color{
     height: 500px;
     width: 100%;
@@ -65,4 +68,37 @@ body{
     
     height: 20px;
     width: 20px;
+}
+.button{
+    width: 150px;
+    height: 65px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: rgb(16, 206, 16);
+    font-family: roboto;
+    font-weight: 500;
+}
+label{
+    font-family: roboto;
+    font-weight: 500;
+    margin-top: 10px;
+}
+input{
+    height: 45px;
+    width: 60%;
+    font-size: 30px;
+    font-family: roboto;
+}
+#mes_bt{
+    height: 40px;
+    width: 100px;
+}
+#message{
+    height: 200px;
+}
+.i{
+    font-family: roboto;
+    font-weight: 500;
+   color: black;
+   margin: 5px;
 }
