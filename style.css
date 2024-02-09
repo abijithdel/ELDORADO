@@ -7,6 +7,9 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    color: aqua;
+}
 #main_color{
     height: 500px;
     width: 100%;
@@ -22,6 +25,10 @@ a{
     width: 90%;
     margin-top: 95px;
     margin-left: 50px;
+    filter: invert(90%);
+}
+.logo_img:hover{
+    filter: invert(100%);
 }
 @media only screen and (max-width: 768px) {
     .logo_text{
@@ -42,7 +49,8 @@ a{
     .logo_img {
         width: 250px;
         height: 80px; 
-        margin-left: 119px;
+        align-content: center;
+        align-items: center;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -60,11 +68,7 @@ a{
     color: black;
     font-weight: 500;
  }
- .slider_section {
-    background-image: url('images/main_img.jpg');
-    background-size: cover; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
-}
+
 .icon{
     
     height: 20px;
@@ -93,9 +97,11 @@ input{
 #mes_bt{
     height: 40px;
     width: 100px;
+   
 }
 #message{
     height: 200px;
+    
 }
 .i{
     font-family: roboto;
@@ -104,10 +110,10 @@ input{
    margin: 5px;
 }
 .about_bg{
-    background-color: black;
+    background-color: rgb(198, 204, 204);
 }
 .main_div_bg{
-    background-image: url('images/bg.jpg');
+    background-image: url('images/main_div_img.jpg');
     background-size: cover;
     background-position: center;
     padding: 10px;
@@ -115,4 +121,19 @@ input{
 .main_p{
     font-family: roboto;
     font-weight: 500;
+}
+.hedings{
+    text-decoration: underline;
+}
+#main_bt{
+    height: 60px;
+    width: 140px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px rgb(255, 255, 255) solid;
+}
+#main_bt:hover{
+    background-color: white;
+    color: black;
+    border: 1px black solid;
 }

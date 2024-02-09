@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="path/to/your/favicon.png" type="image/png">
+    <link rel="icon" href="images/logo.jpg" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>EL DORADO</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-          <a class="logo_text" href="#">EL DORADO</a>
+          <a class="logo_text text-white" href="#">EL DORADO</a>
           <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active text-black m-2" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white m-2" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-black m-2" href="#owners">Owners</a>
+                    <a class="nav-link active text-white m-2" href="#owners">Owners</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-black m-2" href="#contact">Contact</a>
+                    <a class="nav-link active text-white m-2" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-black m-2" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link active text-white m-2" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
         </div>
@@ -39,10 +41,10 @@
      <div class="main_div_bg ">
         <div class="row">
             <div class="main_text col-lg-6 col-12">
-                <h1 class="">EL DORADO</h1>
-                <h2 class="">Holidays</h2>
-                <p class="main_p">This travel website serves as an information hub for prospective travelers planning a getaway.We provide information about our tour packages,price,visiting places etc.</p>
-                <a href="#contact"><button class="button">Contact</button></a>
+                <h1 class="text-white">EL DORADO</h1>
+                <h2 class="text-white">Holidays</h2>
+                <p class="main_p text-white">This travel website serves as an information hub for prospective travelers planning a getaway.We provide information about our tour packages,price,visiting places etc.</p>
+                <a href="#contact"><button class="button mt-4" id="main_bt">Contact</button></a>
             </div>
             <div class="main_img mt-1">
                 <img class="logo_img col-12" src="images/logo.png.png" alt="">
@@ -52,13 +54,14 @@
      
      
       <div class="about_bg">
-        <h1 class="text-center text-white">About</h1>
+        <h1 class="text-center text-black hedings">Booking</h1>
          <div class="row justify-content-center"> 
             <div class="card card_in_mob m-4" style="width: 18rem;">
-                <img src="images/card_img1.jpg" class="card-img-top" alt="...">
+                <img src="images/card_img3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h2>MUNNAR</h2>
                   <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <a href="#contact">Book Now</a>
                 </div>
             </div>
 
@@ -67,14 +70,16 @@
                 <div class="card-body">
                   <h2>MUNNAR</h2>
                   <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <a href="#contact">Book Now</a>
                 </div>
             </div>
 
             <div class="card card_in_mob m-4" style="width: 18rem;">
-                <img src="images/card_img3.jpg" class="card-img-top" alt="...">
+                <img src="images/card_img1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h2>MUNNAR</h2>
                   <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <a href="#contact">Book Now</a>
                 </div>
             </div>
 
@@ -84,7 +89,7 @@
        <section id="owners">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="text-center">OWNWRS</h1>
+                <h1 class="text-center hedings">OWNWRS</h1>
 
                 <div class="card card_in_mob m-4" style="width: 18rem;">
                     <img src="images/card_img3.jpg" class="card-img-top" alt="...">
@@ -113,7 +118,7 @@
        
 
        <section id="contact">
-        <h1 class="text-center m-4 mb-5">Contact us</h1>
+        <h1 class="text-center m-4 mb-5 hedings">Contact us</h1>
 
         <div class="container">
           <div class="row justify-content-center text-center">
@@ -144,12 +149,13 @@
               <label class="label" for="message">Message</label>
               <br>
               <input id="message" class="input" type="text">
+              <br>
+              <button id="mes_bt" class="button mt-4 m-1 ml-5" type="submit">Submit</button>
             </div>
           </div>
+
         </div>
-        <div>
-          <button id="mes_bt" class="button mt-4 m-1" type="submit">Submit</button>
-        </div>
+        
        </section>
 
 
