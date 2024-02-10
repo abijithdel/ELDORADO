@@ -13,14 +13,15 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-          <a class="logo_text text-white" href="#">EL DORADO</a>
+          <a class="logo_text text-white" href="#">EL DORADO <p class="Holidays">H o l i d a y s</p></a> 
+           
           <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white m-2" aria-current="page" href="#main-co">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active text-white m-2" href="#Booking">Booking</a>
@@ -29,7 +30,7 @@
                     <a class="nav-link active text-white m-2" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link active text-white m-2" href="#lmap">Location Map</a>
                 </li>
             </ul>
         </div>
@@ -38,7 +39,7 @@
     </nav>
         
   
-     <div class="main_div_bg ">
+     <div class="main_div_bg " id="main-co">
         <div class="row">
             <div class="main_text col-lg-6 col-12">
                 <h1 class="text-white">EL DORADO</h1>
@@ -105,8 +106,8 @@
             <a href="" class="i"><i class="i fab fa-instagram "></i> Instagram : username</a>
             <a href="" class="i"><i class="i fab fa-whatsapp"></i> Whatsapp : 00 00 00 00 00</a>
             <a href="" class="i"><i class="i far fa-envelope"></i> Email : user@host.domain</a>
-            <h2>PH : 00 00 00 00 00</h2>
-            <h2>PH : 00 00 00 00 00</h2>
+            <a href="" class="i "><i class="i fas fa-phone text-black"></i> : 000 00 00000</a>
+            <a href="" class="i "><i class="i fas fa-phone text-black"></i> : 000 00 00000</a>
           </div>
         </div>
         
@@ -115,7 +116,7 @@
         <div class="container">
           <div class="row justify-content-center">
 
-            <div class="justify-content-center">
+            <div class="">
               <label class="label" for="name">Name</label>
               <br>
               <input class="input" type="text">
@@ -142,7 +143,7 @@
 
 
 
-       <section>
+       <section id="lmap">
         <div class="container mb-3">
           <h1 class="text-center hedings">Location Map</h1>
           <div class="row justify-content-center map">
@@ -157,25 +158,47 @@
 
 
 
-       <footer class="footer mt-auto py-3 bg-dark text-white">
-        <div class="container">
-          <div class="row col-12">
-            <div class="col-auto">
-                <a href="">INSTARAM</a>
-                <br>
-                <a href="">WHATSAPP</a>
-                <br>
-                <a href="">EMAIL</a>
+       <footer class="footer bg-dark text-white">
+        <div class="container ">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4">
+              <h5>Address</h5>
+              <p>123 Main Street</p>
+              <p>City, State, ZIP</p>
             </div>
-         </div>
+            <div class="col-md-4">
+              <h5>Menu</h5>
+              <ul class="list-unstyled">
+                <li class="i2"><a class="text-white" href="#main-co">Home</a></li>
+                <li class="i2"><a class="text-white" href="#Booking">Booking</a></li>
+                <li class="i2"><a class="text-white" href="#contact">Contact</a></li>
+                <li class="i2"><a class="text-white" href="#lmap">Location Map</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="list-inline">
+                <a href="" class="i-white"><i class="i fab fa-instagram text-white"></i> Instagram : username</a>
+                <br>
+                <a href="" class="i-white "><i class="i fab fa-whatsapp text-white"></i> Whatsapp : 00 00 00 00 00</a>
+                <br>
+                <a href="" class="i-white "><i class="i far fa-envelope text-white"></i> Email : user@host.domain</a>
+                <br>
+                <a href="" class="i-white "><i class="i fas fa-phone text-white"></i> : 000 00 00000</a>
+                
+              </ul>
+            </div>
+          </div>
         </div>
+      </footer>
+
+      <hr>
+
+      <footer class="footer bg-white text-black">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-auto">
-              <samp>adres</samp>
-              <br>
-              <span>are</span>
-              <p>post 0000</p>
+          <div class="row">
+            <div class="col-md-12 m-1 text-center">
+              <p>&copy; 2024 Your <a href="#main-co">EL DORADO</a>. All rights reserved.</p>
             </div>
           </div>
         </div>

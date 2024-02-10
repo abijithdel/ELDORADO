@@ -139,4 +139,24 @@ input{
 }
 .map{
     border: 2px black solid;
+    margin: 0%;
+}
+.i2{
+    color: black;
+   margin: 5px;
+}
+.i2:hover{
+    color: aqua;
+}
+.i-white{
+    color: white;
+    font-family: roboto;
+    
+}
+.Holidays{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 1px;
 }
