@@ -137,3 +137,6 @@ input{
     color: black;
     border: 1px black solid;
 }
+.map{
+    border: 2px black solid;
+}
