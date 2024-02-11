@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="path/to/your/favicon.png" type="image/png">
-    <link rel="icon" href="images/logo.jpg" type="image/png">
+    <link rel="icon" href="images/card_img2.jpg" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>EL DORADO</title>
 </head>
@@ -21,16 +21,16 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" aria-current="page" href="#main-co">Home</a>
+                    <a class="nav-link active text-white m-2 hover" aria-current="page" href="#main-co">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" href="#Booking">Booking</a>
+                    <a class="nav-link active text-white m-2 hover" href="#Booking">Booking</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" href="#contact">Contact</a>
+                    <a class="nav-link active text-white m-2 hover" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white m-2" href="#lmap">Location Map</a>
+                    <a class="nav-link active text-white m-2 hover" href="#lmap">Location Map</a>
                 </li>
             </ul>
         </div>
@@ -61,8 +61,9 @@
             <div class="card card_in_mob m-4" style="width: 18rem;">
                 <img src="images/card_img3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h2>MUNNAR</h2>
-                  <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <h3>Travaller</h3>
+                  <li>17 seat capacity</li>
+                  <li>All features available</li>
                   <a href="#contact">Book Now</a>
                 </div>
             </div>
@@ -70,8 +71,9 @@
             <div class="card card_in_mob m-4" style="width: 18rem;">
                 <img src="images/card_img2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h2>MUNNAR</h2>
-                  <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <h3>Innova</h3>
+                  <li>8 seat capacity</li>
+                  <li>All features available</li>
                   <a href="#contact">Book Now</a>
                 </div>
             </div>
@@ -79,8 +81,9 @@
             <div class="card card_in_mob m-4" style="width: 18rem;">
                 <img src="images/card_img1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h2>MUNNAR</h2>
-                  <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                  <h3>Travaller</h3>
+                  <li>14 seat capacity</li>
+                  <li>All features available</li>
                   <a href="#contact">Book Now</a>
                 </div>
             </div>
@@ -88,8 +91,9 @@
             <div class="card card_in_mob m-4" style="width: 18rem;">
               <img src="images/card_img1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h2>MUNNAR</h2>
-                <p>unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                <h3>Swift Dezire</h3>
+                  <li>5 seat capacity</li>
+                  <li>All features available</li>
                 <a href="#contact">Book Now</a>
               </div>
           </div>
@@ -103,11 +107,12 @@
 
         <div class="container">
           <div class="row justify-content-center text-center">
-            <a href="" class="i"><i class="i fab fa-instagram "></i> Instagram : username</a>
-            <a href="" class="i"><i class="i fab fa-whatsapp"></i> Whatsapp : 00 00 00 00 00</a>
+            <a href="https://www.instagram.com/007_holidays/" class="i"><i class="i fab fa-instagram "></i> Instagram : 007_holidays</a>
+            <a href="https://www.whatsapp.com/9745388290" class="i"><i class="i fab fa-whatsapp"></i> Whatsapp : 9745 38 8290</a>
             <a href="" class="i"><i class="i far fa-envelope"></i> Email : user@host.domain</a>
-            <a href="" class="i "><i class="i fas fa-phone text-black"></i> : 000 00 00000</a>
-            <a href="" class="i "><i class="i fas fa-phone text-black"></i> : 000 00 00000</a>
+            <a href="" class="i "><i class="i fas fa-phone text-black"></i>Blesson Saji : 9745 38 8290</a>
+            <a href="" class="i "><i class="i fas fa-phone text-black"></i>Justin Mathew : 9562 48 4096</a>
+            <a href="" class="i "><i class="i fas fa-phone text-black"></i>Ajay Alex : 8157 03 8735</a>
           </div>
         </div>
         
@@ -115,28 +120,17 @@
 
         <div class="container">
           <div class="row justify-content-center">
-
-            <div class="">
-              <label class="label" for="name">Name</label>
+            <form method="post">
+              <h3 class="hedings mt-4">Contact Form</h3>
+              <input type="text" placeholder="Name" name="name" id="name">
               <br>
-              <input class="input" type="text">
-            </div>
-
-            <div>
-              <label class="label" for="contact">Email or Phone</label>
+              <input type="text" placeholder="Email or Phone" name="contactf" id="contactf">
               <br>
-              <input class="input" type="text">
-            </div>
-
-            <div>
-              <label class="label" for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
               <br>
-              <input id="message" class="input" type="text">
-              <br>
-              <button id="mes_bt" class="button mt-4 m-1 ml-5" type="submit">Submit</button>
-            </div>
+              <button class="button" type="submit" onclick="click()">Send</button>
+            </form>
           </div>
-
         </div>
         
        </section>
@@ -178,13 +172,13 @@
             <div class="col-md-4">
               <h5>Follow Us</h5>
               <ul class="list-inline">
-                <a href="" class="i-white"><i class="i fab fa-instagram text-white"></i> Instagram : username</a>
+                <a href="https://www.instagram.com/007_holidays/" class="i-white"><i class="i fab fa-instagram text-white"></i> Instagram : 007_holidays</a>
                 <br>
-                <a href="" class="i-white "><i class="i fab fa-whatsapp text-white"></i> Whatsapp : 00 00 00 00 00</a>
+                <a href="https://www.whatsapp.com/9745388290" class="i-white "><i class="i fab fa-whatsapp text-white"></i> Whatsapp : 9745 38 8290</a>
                 <br>
                 <a href="" class="i-white "><i class="i far fa-envelope text-white"></i> Email : user@host.domain</a>
                 <br>
-                <a href="" class="i-white "><i class="i fas fa-phone text-white"></i> : 000 00 00000</a>
+                <a href="" class="i-white "><i class="i fas fa-phone text-white"></i>Blesson Saji : 9745388290</a>
                 
               </ul>
             </div>
@@ -194,11 +188,11 @@
 
       <hr>
 
-      <footer class="footer bg-white text-black">
+      <footer class="footer bg-white text-black ">
         <div class="container">
           <div class="row">
             <div class="col-md-12 m-1 text-center">
-              <p>&copy; 2024 Your <a href="#main-co">EL DORADO</a>. All rights reserved.</p>
+              <p>&copy; 2024 <a href="#main-co">EL DORADO</a>. All rights reserved.</p>
             </div>
           </div>
         </div>
@@ -210,5 +204,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

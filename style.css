@@ -2,7 +2,8 @@
 
 body{
     background-color: rgb(230, 229, 229);
-    margin: 10px;
+    margin: 5px;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -75,11 +76,11 @@ a:hover{
     width: 20px;
 }
 .button{
-    width: 150px;
-    height: 65px;
+    width: 100px;
+    height: 40px;
     border: 2px black solid;
     border-radius: 5px;
-    background-color: rgb(16, 206, 16);
+    background-color: rgb(108, 232, 236);
     font-family: roboto;
     font-weight: 500;
 }
@@ -91,8 +92,21 @@ label{
 input{
     height: 45px;
     width: 60%;
-    font-size: 30px;
+    font-size: 20px;
     font-family: roboto;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+}
+textarea{
+    height: 100px;
+    width: 60%;
+    font-family: roboto;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
 }
 #mes_bt{
     height: 40px;
@@ -155,8 +169,11 @@ input{
 }
 .Holidays{
     font-family: roboto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     font-style: italic;
     margin-top: 1px;
+}
+.hover:hover{
+    color: aqua;
 }
