@@ -83,6 +83,7 @@ a:hover{
     background-color: rgb(108, 232, 236);
     font-family: roboto;
     font-weight: 500;
+    backdrop-filter: blur(1px);
 }
 label{
     font-family: roboto;
@@ -176,4 +177,12 @@ textarea{
 }
 .hover:hover{
     color: aqua;
+}
+.Phone-bt{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 1px black solid;
+    font-family: roboto;
+    border-radius: 5px;
 }
